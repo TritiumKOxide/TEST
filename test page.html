@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            width: 10em;
+            animation: typingWords 5s steps(10) infinite, cursor 0.5s steps(1) infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 1px solid #000;
+        }
+
+        @keyframes typingWords {
+            0% {
+                width: 0;
+            }
+        }
+
+        @keyframes cursor {
+            50% {
+                border-color: transparent;
+            }
+        }
+    #Layer1 {
+	position:absolute;
+	left:33px;
+	top:25px;
+	width:222px;
+	height:68px;
+	z-index:1;
+}
+    #Layer2 {
+	position:absolute;
+	left:18px;
+	top:11px;
+	width:210px;
+	height:24px;
+	z-index:2;
+}
+    .STYLE1 {color: #FFFFFF}
+    body {
+	background-color: #000000;
+}
+    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+
+<body>
+ <div class="STYLE1" id="Layer2">一日格言：</div>
+ <style>
+        h1 {
+            width: 15em;
+            animation: typingWords 5s steps(15) infinite, cursor 0.5s steps(1) infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 1px solid #000;
+        }
+
+        @keyframes typingWords {
+            0% {
+                width: 0;
+            }
+        }
+
+        @keyframes cursor {
+            50% {
+                border-color: transparent;
+            }
+        }
+    #Layer1 {
+	position:absolute;
+	left:5px;
+	top:20px;
+	width:222px;
+	height:115px;
+	z-index:1;
+}
+    </style>
+    <div id="Layer1">
+    <h1 class="STYLE1">蛙以口鸣，方致蛇祸</h1>
+    </div>
+    
+</body>
+
+</html>
